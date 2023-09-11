@@ -1,0 +1,268 @@
+@font-face {
+    font-family: MyFontFat;
+    src: url(/fonts/Red\ October-Fat.ttf);
+}
+
+@font-face {
+    font-family: MyFontRegular;
+    src: url(/fonts/Red\ October-Regular.ttf);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 2665px;
+}
+
+.section_history {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 532px;
+    background: #EDF2EC;
+}
+
+.section_H {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 410px;
+    margin: 62px 109px;
+    
+}
+
+.section_w_img {
+    width: 190px;
+    height: 90px;
+    border-radius: 10px;
+    float: right;
+}
+
+.section_h_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 410px;
+}
+
+.section_h_text_one{
+    margin: 0 0 42px 0;
+    font-family: MyFontFat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.section_h_text_two {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.text_green {
+    color: #499A18;
+}
+
+.section_Review {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 730px;
+}
+
+.section_r_text_one {
+    margin: 0 0 42px 0;
+    font-family: MyFontFat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.section_r {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 610px;
+    margin: 62px 109px;
+    
+}
+
+.section_r_img {
+    width: 600px;
+    height: 110px;
+    border-radius: 10px;
+    float: right;
+}
+
+.section_r_img_2 {
+    width: 620px;
+    height: 130px;
+    border-radius: 10px;
+    float: right;
+}
+
+.section_r_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 610px;
+}
+
+.section_r_text_one{
+    margin: 0 0 42px 0;
+    font-family: MyFontFat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.section_r_text_two {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.sectiom_markers {
+    list-style-type: initial;
+}
+
+.link {
+    color: #499A18
+}
+
+
+.section_cod {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    background: #EDF2EC;
+}
+
+.section_c {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 680px;
+    margin: 62px 109px;
+    
+}
+
+.section_c_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    height: 610px;
+}
+
+.section_с_text_one{
+    margin: 0 0 0 500px;
+    font-family: MyFontFat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #499A18;
+}
+
+.section_c_block1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+}
+
+.section_c_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c9b8af;
+    border-radius: 10px;
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.section_с_block_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.sectiom_markers_nuber {
+    list-style-type: decimal;
+    width: 360px;
+}
+
+.sect {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 1200px;
+}
+
+.text_coding {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: black;
+}
+
+.text_coding_2 {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 200px 0 0;
+    color: black;
+}
+
+.b {
+    color: #0000FF;
+}
+
+.g {
+    color: #008000
+}
+
+.n {
+    color: #687822
+}
+
+.r {
+    color: #BA2121;
+}
+
+h3 {
+    width: 350px;
+    margin: 0 0 0 40px;
+}

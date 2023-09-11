@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History C#</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/icon.png" type="image">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="site_navbar">
+            <div class="navbar">
+                <div type="Logo">
+                    <img class="logo_img" src="img/icon.png" width="50px" height="50px" alt="Logo">
+                </div>
+                <nav class="page_header_burger">
+                    <ul class="site_navigation">
+                        <li class="site-navigation-item">
+                            <a class="site-navigation__link" href="#History" aria-label="Go to History section">
+                                История создания
+                            </a>
+                        </li>
+                        <li class="site-navigation-item">
+                            <a class="site-navigation__link" href="#Review" aria-label="Go to Review us section">
+                                Краткий обзор
+                            </a>
+                        </li>
+                        <li class="site-navigation-item">
+                            <a class="site-navigation__link" href="#Coding" aria-label="Go to Coding section">
+                                Пример кода
+                            </a>
+                        </li>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="section_history" id="History">
+                <div class="section_H">
+                    <div class="section_h_text">
+                        <h1 class="section_h_text_one">
+                            История <span class="text_green">создания</span>
+                        </h1>
+                        <img class="section_w_img" src="img/c-sharp-dot-net.png" alt="c_shart">
+                        <p class="section_h_text_two">
+                            Проект C# был начат в декабре 1998 и получил кодовое название COOL (C-style Object Oriented
+                            Language). Версия 1.0 была анонсирована вместе с платформой .NET в июне 2000 года, тогда же
+                            появилась и первая общедоступная бета-версия; C# 1.0 окончательно вышел вместе с Microsoft
+                            Visual Studio .NET в феврале 2002 года.
+
+                            Первая версия C# напоминала по своим возможностям Java 1.4, несколько их расширяя: так, в C#
+                            имелись свойства (выглядящие в коде как поля объекта, но на деле вызывающие при обращении к
+                            ним методы класса), индексаторы (подобные свойствам, но принимающие параметр как индекс
+                            массива), события, делегаты, циклы foreach, структуры, передаваемые по значению,
+                            автоматическое преобразование встроенных типов в объекты при необходимости (boxing),
+                            атрибуты, встроенные средства взаимодействия с неуправляемым кодом (DLL, COM) и прочее.
+
+                            Кроме того, в C# решено было перенести некоторые возможности C++, отсутствовавшие в Java:
+                            беззнаковые типы, перегрузку операторов (с некоторыми ограничениями, в отличие от C++),
+                            передача параметров в метод по ссылке, методы с переменным числом параметров, оператор goto
+                            (с ограничениями). Также в C# оставили ограниченную возможность работы с указателями — в
+                            местах кода, специально обозначенных словом unsafe и при указании специальной опции
+                            компилятору.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section_Review" id="Review">
+                <div class="section_r"">
+                    <div class=" section_r_text">
+                    <img class="section_r_img" src="img/Data_2.png" alt="data">
+                    <h2 class="section_r_text_one">
+                        <span class="text_green">Краткий</span> обзор
+                    </h2>
+                    <ul class="section_r_text_two">
+                        <li class="sectiom_markers">
+                            <h2>Описание</h2>
+                            C# (произносится как "си шарп") — современный объектно-ориентированный и типобезопасный язык
+                            программирования. C# позволяет разработчикам
+                            создавать разные типы безопасных и надежных приложений, выполняющихся в .NET. C# относится к
+                            широко известному семейству языков C, и покажется хорошо знакомым любому, кто работал с C,
+                            C++, Java или JavaScript. Здесь представлен обзор основных компонентов языка C# 8 и более
+                            ранних версий. Если вы хотите изучить язык с помощью интерактивных примеров,
+                            рекомендуем поработать с
+                            <a href="https://learn.microsoft.com/ru-ru/dotnet/csharp/tour-of-csharp/tutorials/"
+                                class="link" data-linktype="relative-path">вводными руководствами по C#</a>
+                        </li>
+                        <li class="sectiom_markers">
+                            <h2>Сферы использования</h2>
+                            Если смотреть по отрасли применения, то ситуация другая: в бэкенд-программировании C# в 2022
+                            году занимал
+                            третьем месте после PHP, также C# — являлся популярным языком в геймдеве.
+                        </li>
+                        <li class="sectiom_markers">
+                            <h2>Структура программы</h2>
+                            Основными понятиями Организации в C# являются программы, пространства имен, типы, члены и
+                            сборки. В программе объявляются типы, которые содержат члены. Эти типы можно организовать в
+                            пространства имен. Примерами типов являются классы, структуры и интерфейсы. К членам
+                            относятся поля, методы, свойства и события. При компиляции программы на C# упаковываются в
+                            сборки.Сборки обычно имеют расширение .exe файла или .dll , в зависимости от того, реализуют
+                            ли они .exe или библиотекисоответственно.
+                        </li>
+                        <img class="section_r_img_2" src="img/Data1.png" alt="data">
+                    </ul>
+                </div>
+    </div>
+    </section>
+    <section class="section_cod" id="Coding">
+        <div class="section_c">
+            <div class="section_c_text">
+                <h1 class="section_с_text_one">Пример кода</h1>
+                <div class="sect">
+                    <ul class="section_с_block_text">
+                        <li class="sectiom_markers_nuber">
+                            <h3>Ниже представлен код классической программы «Hello world» на C# для консольного
+                            приложения:</h3>
+                        </li>
+                        <li class="sectiom_markers_nuber">
+                            <h3>Ниже представлен код классической программы «Hello world» на C# для консольного
+                            приложения:</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section_c_block">
+                    <a class="text_coding">Console.WriteLine(<span class="r">"Hello World!"</span>);</a>
+                </div>
+                <div class="section_c_block">
+                    <pre class="text_coding_2">
+                        <span class="g">namespace</span> <span class="b">WindowsForms</span>;
+                        <span class="g">public class</span> <span class="b">Program</span>
+                        {
+                            <span class="n">[STAThread]</span>
+                             <span class="g">public static void</span> <span class="b">Main</span>() => <span class="g">new</span>
+                        DemoForm().ShowDialog();
+                        }
+                        <span class="g">public class</span> <span class="b">DemoForm</span> : Form
+                        {
+                             Label label = <span class="g">new</span> Label();
+
+                             public <span class="b">DemoForm</span>()
+                             {
+                                label.Text = <span class="r">"Hello World!"</span>;
+                                <span class="g">this</span>.Controls.Add(label);
+                                <span class="g">this</span>.StartPosition = 
+                                FormStartPosition.CenterScreen;
+                                <span class="g">this</span>.BackColor = Color.White;
+                                <span class="g">this</span>.FormBorderStyle = 
+                                   FormBorderStyle.Fixed3D;
+                             }
+                        }
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_table">
+        <div class="section_t">
+            <div class="section_t_text">
+                <img class="Table_section" src="img/C_vs_p.png" alt="data">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>C#</th> 
+                            <th>Python</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Простота</td>
+                            <td>Нет</td>
+                            <td>ДА</td>
+                        </tr>
+                        <tr>
+                            <td>Написание скриптов</td>
+                            <td>Только в IDE</td>
+                            <td>В любой среде</td>
+                        </tr>
+                        <tr>
+                            <td>Библиотеки</td>
+                            <td>Мало библиотек</td>
+                            <td>Много библиотек</td>
+                        </tr>
+                        <tr>
+                            <td>Производительность</td>
+                            <td>Высокая</td>
+                            <td>Низкая</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_c">
+          <div class="footer_c_text">
+            <ul class="footer_images">
+                <a class="footer_text">HTML</a>
+                <li class="footer_text">main</li>
+                <li class="footer_text">li</li>
+                <li class="footer_text">ul</li>
+                <li class="footer_text">table</li>
+                <li class="footer_text">div</li>
+                <li class="footer_text">a</li>
+                <li class="footer_text">footer</li>
+                <li class="footer_text">tr</li>
+                <li class="footer_text">tbody</li>
+                <li class="footer_text">section</li>
+                <a class="footer_text_2">...</a>
+            </ul>
+            <ul class="footer_images">
+                <a class="footer_text">CSS</a>
+                <li class="footer_text">display: flex</li>
+                <li class="footer_text">flex-wrap:</li>
+                <li class="footer_text">color:</li>
+                <li class="footer_text">font-size:</li>
+                <li class="footer_text">font-weight:</li>
+                <li class="footer_text">background:</li>
+                <li class="footer_text">margin:</li>
+                <li class="footer_text">align-items:</li>
+                <li class="footer_text">border-radius:</li>
+                <li class="footer_text">justify-content:</li>
+                <a class="footer_text_2">...</a>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
