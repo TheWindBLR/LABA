@@ -132,30 +132,30 @@
                     <a class="text_coding">Console.WriteLine(<span class="r">"Hello World!"</span>);</a>
                 </div>
                 <div class="section_c_block">
-                    <pre class="text_coding_2">
-                        <span class="g">namespace</span> <span class="b">WindowsForms</span>;
-                        <span class="g">public class</span> <span class="b">Program</span>
-                        {
-                            <span class="n">[STAThread]</span>
-                             <span class="g">public static void</span> <span class="b">Main</span>() => <span class="g">new</span>
-                        DemoForm().ShowDialog();
-                        }
-                        <span class="g">public class</span> <span class="b">DemoForm</span> : Form
-                        {
-                             Label label = <span class="g">new</span> Label();
+<pre class="text_coding_2">
+<span class="g">namespace</span> <span class="b">WindowsForms</span>;
+<span class="g">public class</span> <span class="b">Program</span>
+{
+    <span class="n">[STAThread]</span>
+    <span class="g">public static void</span> <span class="b">Main</span>() => <span class="g">new</span>
+    DemoForm().ShowDialog();
+    }
+    <span class="g">public class</span> <span class="b">DemoForm</span> : Form
+    {
+    Label label = <span class="g">new</span> Label();
 
-                             public <span class="b">DemoForm</span>()
-                             {
-                                label.Text = <span class="r">"Hello World!"</span>;
-                                <span class="g">this</span>.Controls.Add(label);
-                                <span class="g">this</span>.StartPosition = 
-                                FormStartPosition.CenterScreen;
-                                <span class="g">this</span>.BackColor = Color.White;
-                                <span class="g">this</span>.FormBorderStyle = 
-                                   FormBorderStyle.Fixed3D;
-                             }
-                        }
-                    </pre>
+    public <span class="b">DemoForm</span>()
+    {
+        label.Text = <span class="r">"Hello World!"</span>;
+        <span class="g">this</span>.Controls.Add(label);
+        <span class="g">this</span>.StartPosition = 
+        FormStartPosition.CenterScreen;
+        <span class="g">this</span>.BackColor = Color.White;
+        <span class="g">this</span>.FormBorderStyle = 
+        FormBorderStyle.Fixed3D;
+    }
+}
+</pre>
                 </div>
             </div>
         </div>

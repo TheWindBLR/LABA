@@ -1,11 +1,11 @@
 @font-face {
     font-family: MyFontFat;
-    src: url(/fonts/Red\ October-Fat.ttf);
+    src: url(../fonts/Red\ October-Fat.ttf);
 }
 
 @font-face {
     font-family: MyFontRegular;
-    src: url(/fonts/Red\ October-Regular.ttf);
+    src: url(../fonts/Red\ October-Regular.ttf);
 }
 
 .site_navbar {
@@ -43,7 +43,7 @@
     line-height: 50px;
 
 
-    color: #FFDEAD;
+    color: #8B00FF;
 }
 
 .logo_img {

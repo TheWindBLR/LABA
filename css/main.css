@@ -1,16 +1,17 @@
 @font-face {
     font-family: MyFontFat;
-    src: url(/fonts/Red\ October-Fat.ttf);
+    src: url(../fonts/Red\ October-Fat.ttf);
 }
 
 @font-face {
     font-family: MyFontRegular;
-    src: url(/fonts/Red\ October-Regular.ttf);
+    src: url(../fonts/Red\ October-Regular.ttf);
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 2665px;
 }
@@ -18,7 +19,6 @@
 .section_history {
     display: flex;
     margin: 0 auto;
-    width: 100%;
     height: 532px;
     background: #EDF2EC;
 }
@@ -26,7 +26,6 @@
 .section_H {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     height: 410px;
     margin: 62px 109px;
     
@@ -43,7 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1200px;
+    width: 90%;
     height: 410px;
 }
 
@@ -72,8 +71,7 @@
 .section_Review {
     display: flex;
     margin: 0 auto;
-    width: 100%;
-    height: 730px;
+    height: 770px;
 }
 
 .section_r_text_one {
@@ -89,7 +87,6 @@
 .section_r {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     height: 610px;
     margin: 62px 109px;
     
@@ -113,7 +110,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1200px;
+
     height: 610px;
 }
 
@@ -148,7 +145,6 @@
 .section_cod {
     display: flex;
     margin: 0 auto;
-    width: 100%;
     height: 800px;
     background: #EDF2EC;
 }
@@ -156,7 +152,6 @@
 .section_c {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     height: 680px;
     margin: 62px 109px;
     
@@ -169,7 +164,6 @@
     align-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 1200px;
     height: 610px;
 }
 
@@ -225,7 +219,7 @@
     display: flex;
     flex-direction: column;
     height: 70px;
-    width: 1200px;
+    width: 100%;
 }
 
 .text_coding {
@@ -242,7 +236,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    margin: 0 200px 0 0;
     color: black;
 }
 
